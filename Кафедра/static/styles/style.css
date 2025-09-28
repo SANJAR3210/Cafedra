@@ -1,0 +1,212 @@
+:root {
+    --font-family: "Nunito Sans", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Geologica", sans-serif;
+    --tekst: #303239;
+    --zagolovki: #18154b;
+    --fon: #f0f5fb;
+    --gradient: #fff;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--fon);
+    /* height: 3423px; */
+}
+
+header {
+    background: var(--zagolovki);
+    background-color: #18154B;
+    color: #F0F5FB;
+    padding: 5px;
+    height: 39px
+}
+
+.top-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-page img {
+    text-align: center;
+}
+
+.contacts {
+    display: inline-block;
+    padding: 7px;
+}
+
+.contacts span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--fon);
+}
+
+.left-contact {
+    display: inline-block;
+}
+
+.right-contact {
+    display: inline-block;
+}
+
+.socials img {
+    display: inline-block;
+    padding: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 5px;
+    box-shadow: 0 4px 20px 0 rgba(0, 7, 94, 0.1);
+    background: var(--gradient);
+    text-align: center;
+    height: 60px;
+}
+
+.single-text {
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(25deg, #0d748b 0%, #1a0b73 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 5px;
+}
+
+.navigation-h {
+    display: inline-block;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    width: 574px;
+    height: 22px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--tekst);
+    padding: 20px;
+}
+
+.navigation-list a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--tekst);
+}
+
+.navigation-button {
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.navigation-button button {
+    border-radius: 50px;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(25deg, #0d748b 0%, #1a0b73 100%);
+    border: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+}
+
+.navigation-image {
+    display: inline-block;
+}
+
+.navigation-image button {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background: var(--fon);
+    border: 0;
+    padding-right: 5px;
+}
+
+@media (max-width: 800px) {
+    .navigation-list {
+        display: block;
+    }
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--zagolovki);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.text-block p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: var(--tekst);
+}
+
+.aboutCompani {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    height: 494px;
+}
+
+.aboutCompani img {
+    border-radius: 10px;
+    fill: radial-gradient(79.47% 52.98% at 60.22% 53.83%, rgb(66, 232, 224) 0%, rgb(66, 232, 224) 3.1104739755392075%, rgb(48, 139, 167) 17.630000412464142%, rgb(38, 85, 135) 32.62999951839447%, rgb(32, 26, 108) 48.03000092506409%, rgb(22, 14, 90) 63.96999955177307%, rgb(17, 7, 79) 80.79000115394592%, rgb(15, 5, 76) 100%);
+    box-shadow: 0 4px 20px 0 rgba(0, 7, 94, 0.1);
+    margin-top: 40px;
+    height: 250px;
+}
+
+.textCompani {
+    display: inline-block;
+    margin-right: 50px;
+    width: 60%;
+}
+
+.many-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    fill: var(--fon);
+    box-shadow: 0 4px 20px 0 rgba(0, 7, 94, 0.1);
+}
+
+.btn-container p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 145%;
+    color: var(--tekst);
+    width: 123px;
+    height: 69px;
+}
